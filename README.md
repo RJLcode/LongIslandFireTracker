@@ -1,6 +1,6 @@
 # Long Island Fire Tracker
 
-**Current version: v2.3.4**
+**Current version: v2.3.5**
 
 A static GitHub Pages dashboard for tracking Nassau and Suffolk County working fire counts by year, month, battalion/division, and department.
 
@@ -8,7 +8,7 @@ A static GitHub Pages dashboard for tracking Nassau and Suffolk County working f
 
 The dashboard can be installed on an iPhone or iPad as a full-screen web app:
 
-1. Open the live site in **Safari**: https://rleone37.github.io/LongIslandFireTracker/
+1. Open the live site in **Safari**: https://rjlcode.github.io/LongIslandFireTracker/
 2. Tap the **Share** button (box with an arrow pointing up) in the Safari toolbar.
 3. Scroll down and tap **Add to Home Screen**.
 4. Edit the name if desired (e.g. "LI Fire Tracker"), then tap **Add**.
@@ -18,7 +18,7 @@ The dashboard can be installed on an iPhone or iPad as a full-screen web app:
 
 ## Links
 
-- **Live site:** https://rleone37.github.io/LongIslandFireTracker/
+- **Live site:** https://rjlcode.github.io/LongIslandFireTracker/
 ## Files
 
 - `index.html` — the dashboard application
@@ -109,6 +109,6 @@ See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
 ## License
 
-Copyright © 2026 RLeone37 (https://github.com/RLeone37). All rights reserved.
+Copyright © 2026 RJLcode (https://github.com/RJLcode). All rights reserved.
 
 This project is **proprietary and not open source**. No part of the source code, data, design, or documentation may be copied, modified, distributed, or used without explicit written permission. See [LICENSE](LICENSE) for the full terms.

@@ -12,6 +12,10 @@ This project follows [Semantic Versioning](https://semver.org/): `vMAJOR.MINOR.P
 
 ---
 
+## [v2.3.5] — 2026-10-11
+
+- GitHub account renamed from RLeone37 to RJLcode: updated `LICENSE`, the source header and footer in `index.html`, and the README's live-site links and License section. The live site is now at https://rjlcode.github.io/LongIslandFireTracker/
+
 ## [v2.3.4] — 2026-09-30
 
 - Footer is now pinned to the bottom of the window, so the version, data date, and copyright notice are always visible instead of only after scrolling to the end of the page

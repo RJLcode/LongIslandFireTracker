@@ -12,6 +12,10 @@ This project follows [Semantic Versioning](https://semver.org/): `vMAJOR.MINOR.P
 
 ---
 
+## [v2.3.6] — 2026-10-22
+
+- iPhone: the header's background now extends under the Dynamic Island / status bar and its title and county buttons start just below it, so iOS no longer blurs the top of the header. In landscape the page keeps clear of the notch, and the pinned footer clears the home indicator
+
 ## [v2.3.5] — 2026-10-11
 
 - GitHub account renamed from RLeone37 to RJLcode: updated `LICENSE`, the source header and footer in `index.html`, and the README's live-site links and License section. The live site is now at https://rjlcode.github.io/LongIslandFireTracker/

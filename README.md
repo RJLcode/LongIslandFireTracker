@@ -1,6 +1,6 @@
 # Long Island Fire Tracker
 
-**Current version: v2.3.5**
+**Current version: v2.3.6**
 
 A static GitHub Pages dashboard for tracking Nassau and Suffolk County working fire counts by year, month, battalion/division, and department.
 

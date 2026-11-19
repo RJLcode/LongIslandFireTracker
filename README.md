@@ -1,6 +1,6 @@
 # Long Island Fire Tracker
 
-**Current version: v2.3.7**
+**Current version: v2.3.8**
 
 A static GitHub Pages dashboard for tracking Nassau and Suffolk County working fire counts by year, month, battalion/division, and department.
 
@@ -34,7 +34,7 @@ The dashboard can be installed on an iPhone or iPad as a full-screen web app:
 | **Battalions/Divisions** | Fire totals broken down by battalion or division, filterable by year, with monthly breakdown charts and a summary table |
 | **Monthly Grid** | Full county monthly fire grid by year with an Avg row; secondary grid filterable by battalion/division — both grids highlight the current month |
 | **Departments** | Sortable, searchable department table with per-year totals, averages, trends, peak years, and zero-fire year counts |
-| **In Progress** | Live-year tracking with pace indicator (on track / ahead / behind last year), current month trend projection, projected full-year totals based on historical averages, and range comparison against historical min/avg/max |
+| **In Progress** | Live-year tracking with pace indicator (on track / ahead / behind last year), current month trend projection, projected full-year totals based on historical averages, and range comparison against historical min/avg/max. A month still in progress (data updated before the month's last day) is shown in yellow on the charts and table |
 | **Records** | All-time records for the county, individual departments, and each calendar month |
 | **Compare** | Side-by-side year-to-year comparison with monthly and battalion/division breakdowns |
 

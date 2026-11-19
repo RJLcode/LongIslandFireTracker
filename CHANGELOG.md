@@ -12,6 +12,10 @@ This project follows [Semantic Versioning](https://semver.org/): `vMAJOR.MINOR.P
 
 ---
 
+## [v2.3.8] — 2026-11-19
+
+- In Progress tab: a month that isn't over yet (when `last_updated` falls before the month's last day) now shows in yellow, not red, so it doesn't look final. This covers its bar and point on the charts, its column in the department table, and its own legend entry. "Through", "thru" and "Pace vs" labels now give the day (for example "Nov 19"), and Year Progress counts the partial month by days
+
 ## [v2.3.7] — 2026-11-19
 
 - Fixed stat cards and charts looking dim: each tab faded in from transparent, and on a busy page load that 0.2-second fade could stall part-way (measured at 37% opacity three seconds after load), leaving the whole tab dim. Tabs now slide in without any fade, and animations are off for people who turn on Reduce Motion

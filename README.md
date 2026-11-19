@@ -1,6 +1,6 @@
 # Long Island Fire Tracker
 
-**Current version: v2.3.6**
+**Current version: v2.3.7**
 
 A static GitHub Pages dashboard for tracking Nassau and Suffolk County working fire counts by year, month, battalion/division, and department.
 
@@ -12,7 +12,7 @@ The dashboard can be installed on an iPhone or iPad as a full-screen web app:
 2. Tap the **Share** button (box with an arrow pointing up) in the Safari toolbar.
 3. Scroll down and tap **Add to Home Screen**.
 4. Edit the name if desired (e.g. "LI Fire Tracker"), then tap **Add**.
-5. The app icon will appear on your Home Screen and launch in full-screen mode without the Safari browser chrome.
+5. The flame app icon will appear on your Home Screen and launch in full-screen mode without the Safari browser chrome.
 
 > **Note:** Add to Home Screen only works in Safari on iOS. It will not appear as an option in Chrome or other iOS browsers.
 
@@ -23,6 +23,7 @@ The dashboard can be installed on an iPhone or iPad as a full-screen web app:
 
 - `index.html` — the dashboard application
 - `fires.json` — the data file loaded by the dashboard
+- `manifest.webmanifest`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png` — home screen icon and name
 
 ## Tabs
 
@@ -80,6 +81,8 @@ Each department entry under `years` uses a 12-number monthly array (January thro
 Data-only updates to `fires.json` can be committed directly to `main`.
 
 On load, the dashboard validates `fires.json` (department names matching between `departments` and `years`, and each monthly array having exactly 12 numeric values) and shows a dismissible warning banner — plus a `console.warn` — if anything doesn't match, since a mismatched name or bad value otherwise fails silently by reading as 0.
+
+If `fires.json` can't be loaded (error, or no answer within 15 seconds), the page says so with a **Try again** button. Names from `fires.json` are shown as text: the characters `<`, `>`, `"` and `'` are swapped for look-alike quote and angle characters on load so they can never be read as HTML.
 
 ## Deployment
 

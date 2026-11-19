@@ -36,3 +36,7 @@ npm-debug.log*
 __pycache__/
 *.py[cod]
 .env
+
+# Claude Code local settings and worktrees
+.claude/settings.local.json
+.claude/worktrees/

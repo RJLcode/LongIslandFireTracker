@@ -12,6 +12,12 @@ This project follows [Semantic Versioning](https://semver.org/): `vMAJOR.MINOR.P
 
 ---
 
+## [v2.4.0] — 2026-11-19
+
+- In Progress: a partial month no longer skews the numbers. "Pace vs" and "vs Historical Avg" now compare at the same point in the month (for example Nov 1–19 against 19/30 of last November), and Projected Full Year counts the partial month as fires so far plus the historical average for the days left. The month projection card now follows the data's last update date, not today's date. On the chart, the partial month's projection shows as a faded bar behind the solid yellow bar
+- Overview: new strip at the top showing the current year's fires so far compared with last year at the same point. Clicking it opens In Progress
+- Monthly Grid: both grids now include the year in progress as a highlighted row below the completed years, with an unfinished month in yellow. It doesn't change the color scale or the Avg row. Removed an unused current-year check from the battalion grid
+
 ## [v2.3.8] — 2026-11-19
 
 - In Progress tab: a month that isn't over yet (when `last_updated` falls before the month's last day) now shows in yellow, not red, so it doesn't look final. This covers its bar and point on the charts, its column in the department table, and its own legend entry. "Through", "thru" and "Pace vs" labels now give the day (for example "Nov 19"), and Year Progress counts the partial month by days

@@ -12,6 +12,17 @@ This project follows [Semantic Versioning](https://semver.org/): `vMAJOR.MINOR.P
 
 ---
 
+## [v2.3.7] — 2026-11-19
+
+- Fixed stat cards and charts looking dim: each tab faded in from transparent, and on a busy page load that 0.2-second fade could stall part-way (measured at 37% opacity three seconds after load), leaving the whole tab dim. Tabs now slide in without any fade, and animations are off for people who turn on Reduce Motion
+- Chart bars are brighter (the blue annual and monthly bars were 20% opacity), and axis and legend text is lighter
+- Contrast: zero-fire table cells, the selected battalion row, and white text on orange buttons and pills now meet WCAG AA
+- Keyboard: year pills can be reached with Tab and pressed with Enter or Space, and focused controls show a yellow outline
+- Loading: `fires.json` now times out after 15 seconds, and the error screen has a **Try again** button; the error text is escaped
+- Department and battalion names from `fires.json` can no longer be read as HTML
+- Add to Home Screen: added a flame app icon, web app manifest and theme colour; the stylesheet now sits inside `<head>`
+- `.gitignore`: ignore `.claude/settings.local.json` and `.claude/worktrees/`
+
 ## [v2.3.6] — 2026-10-22
 
 - iPhone: the header's background now extends under the Dynamic Island / status bar and its title and county buttons start just below it, so iOS no longer blurs the top of the header. In landscape the page keeps clear of the notch, and the pinned footer clears the home indicator
